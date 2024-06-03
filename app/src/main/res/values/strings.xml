@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Repositte</string>
+
+    <!-- Search Screen -->
+    <string name="search_title">Search</string>
+    <string name="search_title_owner">Owner</string>
+    <string name="search_title_desc">Description</string>
+
+    <!-- Details Screen -->
+    <string name="details_title_toolbar">Details</string>
+    <string name="details_title_owner">Owner</string>
+    <string name="details_title_desc">Description</string>
+    <string name="details_title_repo">Repository</string>
+    <string name="details_loading_error">Can\'t load repo. Sorry</string>
+
+    <!-- Common Error -->
+    <string name="error_unknown">Unknown Error</string>
+
+    <!-- Error Item -->
+    <string name="error_item_retry">Retry</string>
+
+    <!-- Expandable Item -->
+    <string name="exp_item_owner">Owner</string>
+    <string name="exp_item_desc">Description</string>
+
+    <!-- Search Toolbar -->
+    <string name="search_toolbar_text_hint">Here</string>
 </resources>

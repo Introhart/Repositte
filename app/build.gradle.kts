@@ -1,11 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 android {
     namespace = "the.hart.repositte"
     compileSdk = 34
+
 
     defaultConfig {
         applicationId = "the.hart.repositte"
@@ -40,7 +43,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.12"
     }
     packaging {
         resources {
@@ -59,6 +62,18 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.retrofit)
+    implementation(libs.navigation)
+    implementation(libs.coil)
+    implementation(libs.srl)
+    implementation(libs.paging.compose)
+    implementation(libs.paging.runtime)
+    implementation(libs.hilt)
+    ksp(libs.hiltCompiler)
+    implementation(libs.hiltNavigationCompose)
+    implementation(libs.androidx.compose.animation)
+    implementation(libs.splash)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

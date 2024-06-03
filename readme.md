@@ -9,7 +9,7 @@ Search Screen
 
 Details Screen
 * repo info (take from list item + ??)
-* 30 repo issues
+* 30 repo issues (I wanna more)
 
 !! !!
 * Progress and loaders

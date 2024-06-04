@@ -1,3 +1,18 @@
+To run the app :
+Go to `AuthInterceptor` file and assign a new gitHub token to `yourToken` variable.
+
+It supposed to look like that: 
+```kotlin
+val yourToken = "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"
+```
+You can generated a new token into gitHubAccount -> Settings -> Developer Settings -> Personal Access token
+enable REPO scope for the token
+
+
+
+
+
+
 Requirements
 
 Repo search service.

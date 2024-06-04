@@ -7,7 +7,8 @@ class AuthInterceptor : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
         val request = chain.request()
         val newRequest = request.newBuilder()
-            .addHeader("Authorization", "Bearer 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")
+            // TODO :: Just imagine that the token is stored securely :)
+            .addHeader("Authorization", "Bearer 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")
             .build()
         return chain.proceed(newRequest)
     }

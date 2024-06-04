@@ -103,6 +103,7 @@ fun SearchToolbar(
                         },
                         modifier = Modifier
                             .height(54.dp)
+                            .padding(start = 40.dp)
                             .focusRequester(focusRequester),
                         trailingIcon = {
                             if (query.isNotEmpty()) {
